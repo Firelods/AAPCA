@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+    --couleur-first: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+nav {
+    position:fixed;
+    display: flex;
+    background: rgba(156, 156, 250, 0.253);
+    border-radius: 12px;
+    z-index:10;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9e6e6;
+    padding-bottom:10vh;
+}
+
+h1 {
+    padding: 5px;
+    width: max-content;
+    border-radius: 1em;
+    display:inline-block;
+    font-family: 'Merriweather', serif;
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ul {
+    /* height:max-content; */
+    padding-inline-end: 40px;
+}
+
+#logo {
+    position: fixed;
+    display: inline-block;
+    top:5vh;
+    width: 20%;
+    max-width: 200px;
+    justify-content: center;
+    z-index: 1;
+}
+
+li.souselem {
+    float: left;
+    border-radius: 12px;
+    padding: 10px;
+    list-style-type: none;
+    transition: background-color 0.2s ease-out;
+}
+
+li.souselem a {
+    text-decoration: none;
+    color: black;
+}
+
+li.souselem:hover {
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+li.souselem ul {
+    display: none;
+}
+
+li.souselem:hover ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.sousliste {
+    padding: 0;
+    background: rgb(108, 108, 177);
+}
+
+.sousliste {
+    border-radius: 12px;
+}
+
+
+
+.parallax {
+    /* The image used */
+    background-image:url("../img/P1030336.JPG");
+
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Partie basse*/
+
+.container{
+    width:100%;
+    padding-left: 1vw;
+    display:flex;
+    justify-content: center;
+    margin-bottom:10vh;
+}
+
+.volDec{
+    /* float:right; */
+    /* left:-100px; */
+}
+
+.journeeDec{
+    /* float:left; */
+}
+
+.volDec,.journeeDec{
+    display:inline-block;
+    position:relative;
+    /* float:center; */
+    transition:transform 0.15s linear;
+    
+
+}
+
+.volDec h2,.journeeDec h2{
+    font-size: 1.6em;
+    display: block;
+    position: relative;
+    top: 13vh;
+
+    color: white;
+    text-align: center;
+}
+
+#volDecimg{
+    width:30vw;
+    
+}
+
+.journeeDec:hover{
+    transform:scale(1.2) ;
+    z-index:9999;
+}
+
+.volDec:hover{
+    transform:scale(1.2);
+    z-index:9999;
+}
+
+#journeeDecimg{
+    width:30vw;
+}
+
+#boutonAccesMembre{
+    text-decoration: none;
+    color:white;
+    background-color: darkblue;
+    padding: 10px;
+    border: 1px solid darkblue ;
+    border-radius: 3px;
+    font-size: 1.4em;
+}
