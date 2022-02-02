@@ -9,6 +9,7 @@ body{
 #logo{
     position:relative;
     width:30vw;
+    z-index: 1;
 }
 
 main{
