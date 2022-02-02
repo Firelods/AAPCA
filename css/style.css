@@ -62,8 +62,9 @@ ul {
     top:7vh;
     width: 20%;
     max-width: 200px;
+    min-width: 150px;
     justify-content: center;
-    z-index: 1;
+    z-index: auto;
 }
 
 li.souselem {
@@ -145,7 +146,7 @@ li.souselem:hover ul {
     /* float:center; */
     transition:transform 0.15s linear;
     width:30vw;
-    
+    min-width:300px;
 
 }
 
@@ -169,7 +170,7 @@ li.souselem:hover ul {
 
 #volDecimg{
     width:30vw;
-    
+    min-width:300px;
 }
 
 .journeeDec:hover{
@@ -184,6 +185,7 @@ li.souselem:hover ul {
 
 #journeeDecimg{
     width:30vw;
+    min-width:300px;
 }
 
 #boutonAccesMembre{
@@ -194,4 +196,11 @@ li.souselem:hover ul {
     border: 1px solid darkblue ;
     border-radius: 3px;
     font-size: 1.4em;
+}
+
+@media (max-width:700px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
