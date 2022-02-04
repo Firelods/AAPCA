@@ -6,3 +6,22 @@ main{
     width:30vw;
     z-index: 1;
 }
+
+h1{
+    margin-bottom: 20vh;
+}
+
+#buttonbriefmeteo{
+    text-decoration:none;
+    padding:1vw;
+    background-color:darkblue;
+    color:white;
+    border-radius: 15px;
+    transition: 500ms ease-in-out;
+
+}
+
+#buttonbriefmeteo:hover {
+	box-shadow: 20px 5px 0 rgb(87, 87, 87), -20px -5px 0 rgb(77, 77, 77);
+    background-color:rgb(37, 37, 141);
+}

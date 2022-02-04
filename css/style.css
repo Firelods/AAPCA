@@ -7,7 +7,7 @@
 
 
 
-body{
+html,body,main{
     margin: 0;
 }
 
@@ -17,6 +17,7 @@ nav {
     background: rgba(156, 156, 250, 0.253);
     border-radius: 12px;
     z-index:9999;
+    font-weight: bold;
 }
 
 header {
@@ -26,13 +27,47 @@ header {
 }
 
 main{
-
+    
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e9e6e6;
+    /* background-color: #e9e6e6; */
+    background: rgb(233,230,230);
+    background: linear-gradient(180deg, rgba(233,230,230,1) 0%, rgba(233,230,230,1) 90%, rgba(255,255,255,1) 100%); 
     padding-bottom:10vh;
     position:relative;
+}
+
+footer{
+    text-align: center;
+    
+    font-weight:bold;
+}
+
+footer h4{
+    font-size:1.5em;
+    color:rgb(0, 38, 119);
+}
+
+footer p{
+    font-size:1.1em;
+}
+footer a:nth-child(1){
+    margin-right:5vw;
+}
+.reseaux{
+    display:flex;
+    justify-content:center;
+}
+
+[class="fab fa-instagram"],[class="fab fa-facebook"] {
+
+    transform:scale(250%);
+    transition: transform 200ms linear; 
+}
+
+[class="fab fa-instagram"]:hover{
+    transform:scale(350%);
 }
 
 h1 {
@@ -73,6 +108,7 @@ li.souselem {
     padding: 10px;
     list-style-type: none;
     transition: background-color 0.2s ease-out;
+    border: 1px solid rgba(143, 143, 143, 0.432);
 }
 
 li.souselem a {
