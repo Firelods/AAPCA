@@ -5,45 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/31bf54283c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./commentçavole.css">
+    <link rel="stylesheet" href="../css/decouvrir/commentçavole.css">
     <link rel="icon" href="../img/logo_aapca.png">
+    <script src="//code.jquery.com/jquery-1.10.2.js">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
+        });
+    </script>
     <title>Un planeur, comment ça vole ?</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-
-            <ul>
-                <li class="souselem"><a href="../index.html">Accueil</a></li>
-                <li class="souselem"><a href="#">Decouvrir</a>
-                    <ul class="sousliste">
-                        <li class="souselem"><a href="#">Un planeur, comment ça vole ?</a>
-                        </li>
-                        <li class="souselem"><a href="#">Vols Découverte</a></li>
-                        <li class="souselem"><a href="#">Journée Découverte</a></li>
-                    </ul>
-                </li>
-                <li class="souselem"><a href="#">Apprendre</a>
-                    <ul class="sousliste">
-                        <li class="souselem"><a href="#">Les stages de début</a></li>
-                        <li class="souselem"><a href="#">Passer son Brevet Européen SPL de Pilote de Planeur ( Sail
-                                Plane
-                                License)</a></li>
-                    </ul>
-                </li>
-                <li class="souselem"><a href="#">Se perfectionner</a></li>
-                <li class="souselem"><a href="#">Venir voler à Fayence</a></li>
-                <li class="souselem"><a href="#">Les Planeurs et Remorqueurs</a></li>
-                <li class="souselem"><a href="#">Sécurité et réglementation</a></li>
-            </ul>
-        </nav>
-        <img id="logo" src="../img/logo_aapca.png" alt="logo_aapca">
-    </header>
+    <div id="header"></div>
     <main>
+        <div class="container1">
         <h1>Un planeur, comment ça vole ?</h1>
         <h3>Le Planeur</h3>
+        <img id="attero" src="../img/ASH25_finale_10.jpg" alt="ASH25 finale 10">
         <p>Un planeur est un aéronef, plus lourd que l’air (un monoplace pèse environ 350Kg avec son pilote), qui
             ressemble à un avion, mais avec des ailes allongées et des formes plus effilées. Dépourvu de moteur,
             d’énergie pour se sustenter, un planeur descend lentement dans l’air qui l’entoure. Pour monter, le planeur
@@ -55,16 +38,15 @@
             s’élevant avec la colonne d’air chaud.</p>
         
         <h3>Piloter un planeur</h3>
+        <img id="cabinePlaneur" src="../img/Cabine_planeur_1.jpg" alt="Cabine Planeur">
         <p>Pour contrôler le vol d’un planeur, il y a 3 commandes principales, comme dans un avion. Une sur le manche d’avant en arrière pour contrôler la vitesse, une deuxième aussi sur le manche de gauche à droite pour contrôler l’inclinaison. La troisième commande est la direction, actionnée avec les pieds, qui agit sur le gouvernail de direction.
             <br><br>
             On peut être élève pilote dès l’age de 15 ans et pilote breveté à 16 ans, et effectuer alors des vols seul à bord à proximité de l’aérodrome. Le brevet de pilote de planeur est une première étape qui sanctionne la capacité du pilote à conduire ses trajectoires, gérer sa sécurité et de bonnes bases dans la recherche et l’exploitation des ascendances.
             <br><br>
             Après le brevet la progression vers des planeurs de grande performance et des grands vols se poursuit. Les vols de plusieurs heures et de plusieurs centaines de kilomètres sont possibles.</p>
-    </main>
-    <footer>
-        <h4>Suivez Nous !</h4>
-        <div class="reseaux"><a href="instagram.com"><i class="fab fa-instagram"></i></a><a href="facebook.com"><i class="fab fa-facebook"></i></a></div>
-        <p>@Copyright Clément LEFEVRE</p></footer>
+            </div>
+        </main>
+    <div id="footer"></div>
 </body>
 
 </html>

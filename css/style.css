@@ -66,7 +66,7 @@ footer a:nth-child(1){
     transition: transform 200ms linear; 
 }
 
-[class="fab fa-instagram"]:hover{
+[class="fab fa-instagram"]:hover,[class="fab fa-facebook"]:hover{
     transform:scale(350%);
 }
 

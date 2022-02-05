@@ -1,46 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/31bf54283c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="./img/logo_aapca.png">
-    <title>Page d'accueil</title>
-</head>
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/31bf54283c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="icon" href="../img/logo_aapca.png">
+        <script src="//code.jquery.com/jquery-1.10.2.js">
+        </script>
+        <script>
+            $(function () {
+                $("#header").load("/header.html");
+                $("#footer").load("/footer.html");
+            });
+        </script>
+        
+        <title>Page d'accueil</title>
+    </head>
 
 <body>
     <div class="parallax">
-        <header>
-            <nav>
-
-                <ul>
-                    <li class="souselem"><a href="#">Accueil</a></li>
-                    <li class="souselem"><a href="#">Decouvrir</a>
-                        <ul class="sousliste">
-                            <li class="souselem"><a href="./decouvrir/commentçavole.html">Un planeur, comment ça vole ?</a></li>
-                            <li class="souselem"><a href="#">Vols Découverte</a></li>
-                            <li class="souselem"><a href="#">Journée Découverte</a></li>
-                        </ul>
-                    </li>
-                    <li class="souselem"><a href="#">Apprendre</a>
-                        <ul class="sousliste">
-                            <li class="souselem"><a href="#">Les stages de début</a></li>
-                            <li class="souselem"><a href="#">Passer son Brevet Européen SPL de Pilote de Planeur ( Sail
-                                    Plane
-                                    License)</a></li>
-                        </ul>
-                    </li>
-                    <li class="souselem"><a href="#">Se perfectionner</a></li>
-                    <li class="souselem"><a href="#">Venir voler à Fayence</a></li>
-                    <li class="souselem"><a href="#">Les Planeurs et Remorqueurs</a></li>
-                    <li class="souselem"><a href="#">Sécurité et réglementation</a></li>
-                </ul>
-            </nav>
-            <img id="logo" src="./img/logo_aapca.png" alt="logo_aapca">
-        </header>
+        <div id="header"></div>
     </div>
     <main>
         <h1>Les Planeurs de Fayence – AAPCA</h1>

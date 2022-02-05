@@ -1,0 +1,43 @@
+AAPCA
+ ┣ .vscode
+ ┃ ┗ settings.json
+ ┣ apprendre
+ ┃ ┣ edvv.html
+ ┃ ┣ simuCondor.html
+ ┃ ┣ spl.html
+ ┃ ┗ stagesDebut.html
+ ┣ css
+ ┃ ┣ decouvrir
+ ┃ ┃ ┗ commentçavole.css
+ ┃ ┣ membre.css
+ ┃ ┗ style.css
+ ┣ decouvrir
+ ┃ ┣ commentçavole.html
+ ┃ ┣ journeeDec.html
+ ┃ ┗ volDec.html
+ ┣ img
+ ┃ ┣ ASH25_finale_10.jpg
+ ┃ ┣ Cabine_planeur_1.jpg
+ ┃ ┣ IMG20211105165808-EFFECTS.jpg
+ ┃ ┣ logo_aapca.png
+ ┃ ┣ P1030319.JPG
+ ┃ ┣ P1030336.JPG
+ ┃ ┗ planeur.jpg
+ ┣ perfectionner
+ ┃ ┣ autorisationcampagne.html
+ ┃ ┣ badgesFAI.html
+ ┃ ┣ leavelocal.html
+ ┃ ┗ preparationVol.html
+ ┣ venirVoler
+ ┃ ┣ carteLocal.html
+ ┃ ┣ index.html
+ ┃ ┣ infosGPS.html
+ ┃ ┣ organisationJournee.html
+ ┃ ┣ selfBriefing.html
+ ┃ ┗ verifIGC.html
+ ┣ .gitattributes
+ ┣ footer.html
+ ┣ header.html
+ ┣ index.html
+ ┣ membre.html
+ ┗ pageVierge.html
