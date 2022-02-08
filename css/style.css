@@ -234,9 +234,37 @@ li.souselem:hover ul {
     font-size: 1.4em;
 }
 
+
+/* RESPONSIVE */
+
 @media (max-width:700px) {
     .container {
         flex-direction: column;
         align-items: center;
+    }
+    #logo{
+        top:28vh;
+    }
+    #navi{
+        display:none;
+        opacity:0;
+        margin-top: 10vw;
+        transition: opacity 0.5s linear;   
+    }
+    #burger{
+        transform: scale(2.2);
+        background-attachment: fixed;
+        position: fixed;
+        z-index: 9999;
+        margin-top:20px;
+    }
+}
+
+@media (min-width:700px){
+    #burger{
+        display:none;
+    }
+    #navi{
+        
     }
 }
