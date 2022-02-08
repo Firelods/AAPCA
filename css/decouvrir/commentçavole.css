@@ -58,4 +58,7 @@ p{
         width: 100%;
         background-color: #e9e6e6e0;
     }
+    #logo{
+        top:7vh;
+    }
 }

@@ -234,7 +234,9 @@ li.souselem:hover ul {
     font-size: 1.4em;
 }
 
-
+#burger{
+    transform: scale(2.2);
+}
 /* RESPONSIVE */
 
 @media (max-width:700px) {
@@ -253,7 +255,7 @@ li.souselem:hover ul {
         transition: opacity 0.5s linear;   
     }
     #burger{
-        transform: scale(2.2);
+        
         background-attachment: fixed;
         position: fixed;
         z-index: 9999;
