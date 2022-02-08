@@ -246,8 +246,9 @@ li.souselem:hover ul {
         top:28vh;
     }
     #navi{
-        display:none;
+        display:block;
         opacity:0;
+        pointer-events: none;
         margin-top: 10vw;
         transition: opacity 0.5s linear;   
     }
@@ -265,6 +266,8 @@ li.souselem:hover ul {
         display:none;
     }
     #navi{
-        
+
+        opacity : 1;
+        pointer-events: all;
     }
 }
