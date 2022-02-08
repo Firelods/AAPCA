@@ -1,0 +1,26 @@
+
+.accroche{
+    position:absolute;
+    border:1px solid black;
+    border-style:dashed;
+    padding: 5px;
+    font-weight: bold;
+    background-color:rgba(248, 220, 168, 0.445);
+}
+
+#accroche2{
+    top:0;
+    left:-4vw;
+    transform:rotate(-35deg);
+
+}
+
+#accroche1{
+    right:-3vw;
+    top:0;
+    transform:rotate(35deg);
+}
+
+h2{
+    text-align:center;
+}
