@@ -21,6 +21,48 @@
     transform:rotate(35deg);
 }
 
+
+main{
+    display:flex;
+}
 h2{
     text-align:center;
+}
+
+.paragraphe{
+    /* margin-left:15%; */
+    width:70%;
+    text-align:center;
+}
+
+#tarifs{
+    color:inherit;
+    text-decoration: none;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+    background: white;
+    border-radius: 15px;
+    transition:transform 0.1s linear;
+}
+
+#tarifs:hover{
+    transform: scale(1.2);
+}
+
+
+#prix,#prix1{
+    opacity:0;
+    transition:opacity 0.5s linear;
+    padding:10px;
+    color:rgb(3, 118, 122) ;
+    border:3px solid rgb(3, 118, 122);
+    border-style: dashed;
+    border-radius: 15px;
+    margin-right:5px;
+    font-weight: bold;;
+}
+
+#assurance{
+    font-size: 0.95em;
 }
