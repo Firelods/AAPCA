@@ -1,68 +1,91 @@
-
-.accroche{
-    position:absolute;
-    border:1px solid black;
-    border-style:dashed;
+.accroche {
+    position: absolute;
+    border: 1px solid black;
+    border-style: dashed;
     padding: 5px;
+    width: 225px;
     font-weight: bold;
-    background-color:rgba(248, 220, 168, 0.445);
+    background-color: rgb(255 166 0 / 45%);
 }
 
-#accroche2{
-    top:0;
-    left:-4vw;
-    transform:rotate(-35deg);
-
+#accroche2 {
+    top: -46px;
+    left: 16vw;
+    transform: rotate(25deg);
+    text-align: center;
 }
 
-#accroche1{
-    right:-3vw;
-    top:0;
-    transform:rotate(35deg);
+#accroche1 {
+
+    right: 16.5vw;
+    top: -46px;
+    transform: rotate(-25deg);
 }
 
 
-main{
-    display:flex;
-}
-h2{
-    text-align:center;
+main {
+    display: flex;
 }
 
-.paragraphe{
+h2 {
+    text-align: center;
+}
+
+.paragraphe {
     /* margin-left:15%; */
-    width:70%;
-    text-align:center;
+    width: 70%;
+    text-align: center;
 }
 
-#tarifs{
-    color:inherit;
+#tarifs {
+    color: inherit;
     text-decoration: none;
-    margin-top:20px;
-    margin-bottom:20px;
-    padding:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     background: white;
     border-radius: 15px;
-    transition:transform 0.1s linear;
+    transition: transform 0.1s linear;
 }
 
-#tarifs:hover{
+#tarifs:hover {
     transform: scale(1.2);
 }
 
 
-#prix,#prix1{
-    opacity:0;
-    transition:opacity 0.5s linear;
-    padding:10px;
-    color:rgb(3, 118, 122) ;
-    border:3px solid rgb(3, 118, 122);
+#prix,
+#prix1 {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    padding: 10px;
+    color: rgb(3, 118, 122);
+    border: 3px solid rgb(3, 118, 122);
     border-style: dashed;
     border-radius: 15px;
-    margin-right:5px;
-    font-weight: bold;;
+    margin-right: 5px;
+    font-weight: bold;
+    ;
 }
 
-#assurance{
-    font-size: 0.95em;
+#assurance {
+    font-size: 1.1em;
+}
+
+#register {
+    padding: 10px;
+    width:70%;
+    border: solid 1px black;
+}
+
+#register a{
+    font-weight: bold;
+    color:rgb(0, 179, 179);
+}
+
+@media (max-width: 768px) {
+    .accroche{
+    
+        display:none;
+    }
+
 }

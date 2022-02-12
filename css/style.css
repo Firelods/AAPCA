@@ -241,7 +241,7 @@ li.souselem:hover ul {
 }
 /* RESPONSIVE */
 
-@media (max-width:700px) {
+@media (max-width:768px) {
     .container {
         flex-direction: column;
         align-items: center;
@@ -252,6 +252,7 @@ li.souselem:hover ul {
     #navi{
         display:block;
         opacity:0;
+        background: rgba(156, 156, 250, 0.6);
         pointer-events: none;
         margin-top: 10vw;
         transition: opacity 0.5s linear;   
@@ -265,7 +266,7 @@ li.souselem:hover ul {
     }
 }
 
-@media (min-width:700px){
+@media (min-width:768px){
     #burger{
         display:none;
     }
