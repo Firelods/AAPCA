@@ -73,8 +73,8 @@ footer a:nth-child(1){
 }
 
 h1 {
-    padding: 5px;
-    width: 99%;
+    /* padding: 5px; */
+    width: 100%;
     border-radius: 1em;
     display:inline-block;
     text-align: center;
